@@ -2,8 +2,9 @@ import axios from "axios";
 
 const API_BASE_URL =
   process.env.NODE_ENV === "development"
-    ? "https://e-commerce-backend-production-0ce5.up.railway.app"
-    : "http://localhost:8080";
+    ? "http://localhost:8080"
+    : "https://ecommerce-backend-production-ff66.up.railway.app";
+
 
 const api = axios.create({
   baseURL: API_BASE_URL,
