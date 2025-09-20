@@ -10,6 +10,7 @@ const AddressCard = ({ address }) => {
           {address.firstName} {address.lastName}
         </p>
         <p>
+          {/* This commas you can see in frontend too */}
           {address.streetAddress}, {address.city}, {address.state},{" "}
           {address.zipCode}
         </p>
